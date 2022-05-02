@@ -2,8 +2,8 @@
 layout: post
 title: Quick markdown example
 subtitle: This is a quick markdown example
-categories: Github Page
-tags: [example]
+categories: Github
+tags: [github_page]
 ---
 
 Paragraphs are separated by a blank line.
