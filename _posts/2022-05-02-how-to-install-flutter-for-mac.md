@@ -15,7 +15,7 @@ Mac 환경에서 Flutter를 설치해봅시다.
 ### Flutter 설치 ###
   1. 아래의 url로 이동하여 SDK를 다운로드해주세요.
 >
-> [a website](https://docs.flutter.dev/get-started/install/macos)
+> [https://docs.flutter.dev/get-started/install/macos](https://docs.flutter.dev/get-started/install/macos)
 
 
 2. Get the Flutter SDK 아래에 있는 링크로 파일을 다운로드 해주세요
@@ -27,13 +27,13 @@ Mac 환경에서 Flutter를 설치해봅시다.
 
 4. sublime Text 앱을 설치합니다.
 >
->[a website](https://www.sublimetext.com/)
+>[https://www.sublimetext.com/](https://www.sublimetext.com/)
 
 * 다운로드 파일을 압축해제 후, 앱을 Applications로 옮겨 줍니다.
 
 5. 아래의 url로 이동하여 환경변수를 생성합니다.
 >
->[a website](https://docs.flutter.dev/get-started/install/macos#update-your-path)
+>[https://docs.flutter.dev/get-started/install/macos#update-your-path](https://docs.flutter.dev/get-started/install/macos#update-your-path)
 
 * sublime text 에 아래 내용을 붙여넣습니다(본인이 어디에 flutter를 unzip 했는지 쓰세요!)
 * export PATH="$PATH:**Documents/Work/SDK/flutter**/bin"
@@ -51,7 +51,7 @@ Mac 환경에서 Flutter를 설치해봅시다.
 ### VSCode 설치 ### 
 1. 아래의 url로 이동하여 VS Code를 설치해주세요.
 >
->[a website](https://code.visualstudio.com/)
+>[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 * 다운로드 파일을 압축해제 후, 앱을 Applications로 옮겨 줍니다.
 
@@ -65,7 +65,7 @@ Mac 환경에서 Flutter를 설치해봅시다.
 ### Android Studio 설치 ### 
 1. 아래의 url로 이동하여 Android Studio를 설치해주세요.
 >
->[a website](https://developer.android.com/studio?gclid=Cj0KCQjw37iTBhCWARIsACBt1IzKAjxURMwZHTlV2SqtTzgC_F0dMNIcgquJ9CPFEXNIcJu9nHOM_lsaAlpVEALw_wcB&gclsrc=aw.ds#downloads)
+>[https://developer.android.com/studio](https://developer.android.com/studio?gclid=Cj0KCQjw37iTBhCWARIsACBt1IzKAjxURMwZHTlV2SqtTzgC_F0dMNIcgquJ9CPFEXNIcJu9nHOM_lsaAlpVEALw_wcB&gclsrc=aw.ds#downloads)
 
 * 내 컴퓨터에 맞는 버전을 확인하고 다운로드 받으세요!
 * 아이콘을 Applications로 이동하면 자동으로 다운됩니다.
@@ -86,20 +86,20 @@ Mac 환경에서 Flutter를 설치해봅시다.
 ### XCode 설치 ###
 1. 앱스토어로 이동하여 'XCode'를 설치합니다. 혹은 아래의 url로 이동하여 자신이 개발해야 하는 swift버전에 맞는 XCode를 설치합니다.
 >
->[a website](developer.apple.com/download/more/)
+>[developer.apple.com/download/more/](developer.apple.com/download/more/)
 
 * 안드로이드처럼 상위 swift 버전이 하위 swift 버전에 대한 대응을 못함.
 * 여러버전의 XCode를 설치하여 swap하며 사용할수 있습니다.
 
 2. M1 사용자의 경우 아래 url로 이동하여 Rosetta2를 설치합니다. 
 >
->[a website](https://github.com/flutter/flutter/wiki/Developing-with-Flutter-on-Apple-Silicon)
+>[https://github.com/flutter/flutter/wiki/Developing-with-Flutter-on-Apple-Silicon](https://github.com/flutter/flutter/wiki/Developing-with-Flutter-on-Apple-Silicon)
 
 
 3. 터미널에 'flutter doctor'를 입력하여 정상 설치를 확인합니다.
 * cocoapods not installed 가 뜨면 아래 url로 이동하여 설치합니다.
 >
->[a website](https://guides.cocoapods.org/using/getting-started.html)
+>[https://guides.cocoapods.org/using/getting-started.html](https://guides.cocoapods.org/using/getting-started.html)
 
 * XCode에서 안드로이드의 gradle과 같은 역할을 합니다.(의존성 관리 매니저)
 
