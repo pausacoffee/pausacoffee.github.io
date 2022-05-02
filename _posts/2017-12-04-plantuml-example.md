@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Plantuml example
-categories: Github Page
-tags: [plantuml]
+categories: Github
+tags: [github_page]
 ---
 
 ## My First PlantUML
