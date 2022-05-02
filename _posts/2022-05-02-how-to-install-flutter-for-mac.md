@@ -77,7 +77,7 @@ flutter doctor --android-licenses
 </pre>
   
 <br/><br/>
-<H3>XCode</H3>
+<H3>XCode 설치</H3>
 <p>
   1. 앱스토어로 이동하여 'XCode'를 설치합니다. 혹은 아래의 url로 이동하여 자신이 개발해야 하는 swift버전에 맞는 XCode를 설치합니다.
 </p>
