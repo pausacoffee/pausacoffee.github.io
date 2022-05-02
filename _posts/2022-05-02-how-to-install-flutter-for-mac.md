@@ -6,7 +6,7 @@ categories: Flutter
 tags: [Flutter, VSCode, Install, Mac]
 ---
 
-설치하기
+## 설치하기 ##
 ------------
 
 Flutter는 Google에서 제공하는 오픈소스 프레임워크입니다. Dart언어를 사용하며, 크로스플랫폼 개발 툴입니다.
