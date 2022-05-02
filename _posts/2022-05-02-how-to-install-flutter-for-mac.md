@@ -40,7 +40,8 @@ Mac 환경에서 Flutter를 설치해봅시다.
 * 저장 경로는 '내컴퓨터 이름'($HOME), 저장 이름은 '.zshrc'로 합니다.
 
 6. 터미널을 열어 **source $HOME/.zshrc** 그리고 **echo $PATH**를 차례로 입력합니다.
-*터미널은 command + space 로 Spotlight를 열어 terminal 을 입력하면 켜집니다.
+* 터미널은 command + space 로 Spotlight를 열어 terminal 을 입력하면 켜집니다.
+
 **여기까지 따라 오셨으면 터미널에서 'flutter' 커맨드가 가능합니다!**
 
 7. 터미널에 'flutter doctor'를 입력하여 정상 설치를 확인합니다. 
