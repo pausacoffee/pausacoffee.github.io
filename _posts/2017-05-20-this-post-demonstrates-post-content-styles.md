@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "This post demonstrates post content styles"
-categories: example
+categories: Github Page
 author: "Bart Simpson"
 meta: "Springfield"
 ---
