@@ -2,7 +2,7 @@
 layout: post
 title: To-Do List
 subtitle: Each post also has a subtitle
-categories: TO-Do
+categories: TO-DO
 tags: [ToDo]
 ---
 
