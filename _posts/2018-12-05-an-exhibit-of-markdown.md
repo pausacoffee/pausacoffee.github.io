@@ -2,8 +2,8 @@
 layout: post
 title: An exhibit of Markdown
 subtitle: Each post also has a subtitle
-categories: Github Page
-tags: [example, markdown]
+categories: Github
+tags: [example, markdown, github_page]
 ---
 
 This note demonstrates some of what [Markdown][1] is capable of doing.
