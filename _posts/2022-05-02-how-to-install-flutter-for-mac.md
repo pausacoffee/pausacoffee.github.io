@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to Install Flutter for Mac
-subtitle: with Visutal Studio Code
+title: 맥에 flutter를 설치해보자!
+subtitle: How to Install Flutter for Macwith Visutal Studio Code
 categories: Flutter
 tags: [Flutter, VSCode, Install, Mac]
 ---
