@@ -2,8 +2,8 @@
 layout: post
 title: Mathjax Test
 subtitle: My first mathjax expression
-categories: Github Page
-tags: [test]
+categories: Github
+tags: [test, github_page]
 ---
 
 * A safe integer is an integer that
