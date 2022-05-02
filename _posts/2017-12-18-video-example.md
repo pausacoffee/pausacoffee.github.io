@@ -2,8 +2,8 @@
 layout: post
 title: Video example
 subtitle:
-categories: Github Page
-tags: [video]
+categories: Github
+tags: [video, github_page]
 ---
 
 ## Canon in D (Pachelbel's Canon) - Cello & Piano [BEST WEDDING VERSION]
