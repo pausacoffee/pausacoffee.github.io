@@ -2,8 +2,8 @@
 layout: post
 title: Table example
 subtitle:
-categories: Github Page
-tags: [table]
+categories: Github
+tags: [table, github_page]
 ---
 
 ## Table example as below
