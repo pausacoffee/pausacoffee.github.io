@@ -50,7 +50,7 @@ int, double, String, bool 을 기본적으로 제공한다.
 > 함수(function) : class 밖에서 작성하는 함수. 어디에서나 호출 가능.  
 > 메소드(method) : class 내부에 작성하는 함수. 정의된 class에 관계된 기능을 수행. Static이 붙은 method는 정적 메서드가 되어 최상위 함수처럼 사용 가능.  
 
-#### 익명함수와 화살표함수(람다식) ####
+#### 익명함수와 람다식 ####
 **(인수형식){동작}** 의 패턴으로 구성된다. 변수에 할당하여 사용할 수 있다.
 <script src="https://gist.github.com/pausacoffee/b2ffd58a945a9465660eb1837fa37843.js"></script>
 #### 매개변수 ####
