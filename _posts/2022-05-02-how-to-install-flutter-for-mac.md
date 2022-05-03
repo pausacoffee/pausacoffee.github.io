@@ -14,27 +14,22 @@ Mac 환경에서 Flutter를 설치해봅시다.
 ------------
 ### Flutter 설치 ###
   1. 아래의 url로 이동하여 SDK를 다운로드해주세요.
->
 > [https://docs.flutter.dev/get-started/install/macos](https://docs.flutter.dev/get-started/install/macos)
 
 
 2. Get the Flutter SDK 아래에 있는 링크로 파일을 다운로드 해주세요
 * 2022-05-02 기준 'flutter_macos_2.10.5-stable.zip'
 
-3. 원하는 곳에 unzip 합니다.</p>
+3. 원하는 곳에 unzip 합니다.
 * 필자는 Documents/Work/SDK 하위에 unzip
 * Documents/Work/SDK/flutter 폴더가 생성됨.
 
 4. sublime Text 앱을 설치합니다.
->
 >[https://www.sublimetext.com/](https://www.sublimetext.com/)
-
 * 다운로드 파일을 압축해제 후, 앱을 Applications로 옮겨 줍니다.
 
 5. 아래의 url로 이동하여 환경변수를 생성합니다.
->
 >[https://docs.flutter.dev/get-started/install/macos#update-your-path](https://docs.flutter.dev/get-started/install/macos#update-your-path)
-
 * sublime text 에 아래 내용을 붙여넣습니다(본인이 어디에 flutter를 unzip 했는지 쓰세요!)
 * export PATH="$PATH:**Documents/Work/SDK/flutter**/bin"
 * 저장 경로는 '내컴퓨터 이름'($HOME), 저장 이름은 '.zshrc'로 합니다.
@@ -42,7 +37,7 @@ Mac 환경에서 Flutter를 설치해봅시다.
 6. 터미널을 열어 **source $HOME/.zshrc** 그리고 **echo $PATH**를 차례로 입력합니다.
 * 터미널은 command + space 로 Spotlight를 열어 terminal 을 입력하면 켜집니다.
 
-**여기까지 따라 오셨으면 터미널에서 'flutter' 커맨드가 가능합니다!**
+   **여기까지 따라 오셨으면 터미널에서 'flutter' 커맨드가 가능합니다!**
 
 7. 터미널에 'flutter doctor'를 입력하여 정상 설치를 확인합니다. 
 자세히 읽어 보시면 XCode, Andriod Studio, VS Code에 빨간 불이 들어오셨을 것입니다.
