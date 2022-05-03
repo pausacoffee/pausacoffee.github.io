@@ -30,6 +30,7 @@ Mac 환경에서 Flutter를 설치해봅시다.
 
 5. 아래의 url로 이동하여 환경변수를 생성합니다.
 >[https://docs.flutter.dev/get-started/install/macos#update-your-path](https://docs.flutter.dev/get-started/install/macos#update-your-path)
+
 * sublime text 에 아래 내용을 붙여넣습니다(본인이 어디에 flutter를 unzip 했는지 쓰세요!)
 * export PATH="$PATH:**Documents/Work/SDK/flutter**/bin"
 * 저장 경로는 '내컴퓨터 이름'($HOME), 저장 이름은 '.zshrc'로 합니다.
