@@ -24,18 +24,20 @@ flutter는 크로스플랫폼 **프레임워크**이다. 고로 flutter를 사�
 ## 기본문법 ##
 기본적으로 ;(세미콜론)으로 문장이 끝난다.
 #### print ####
-<script src="https://gist.github.com/knhsnaptag/b5fe3b3f10b8f29ae85f7dab33c307c7.js"></script>  
+<script src="https://gist.github.com/pausacoffee/6e8971504048ae2fb7225931911b508a.js"></script> 
 #### 주석 ####
-<script src="https://gist.github.com/pausacoffee/6cad4851b7174da4f06fb9ed69b80ae3.js"></script>  
+<script src="https://gist.github.com/pausacoffee/34ad2f0100c9105d3d7e88104b79dc83.js"></script>
 #### 변수, var, 상수 ####
 int, double, String, bool 을 기본적으로 제공한다.  
-<script src="https://gist.github.com/knhsnaptag/30c1459fbb5726684cb823fd6cb09917.js"></script>  
-#### 연산자(산술, 증감, 논리, 비교) ####
-<script src="https://gist.github.com/knhsnaptag/f068fec6ed67f41afa9281648ae4d5ed.js"></script>
+<script src="https://gist.github.com/pausacoffee/8792186514b2cc332c165745e1722f4c.js"></script> 
+#### 연산자 ####
+<script src="https://gist.github.com/pausacoffee/994680d065decee91216dd2c00eca45d.js"></script>
 #### 타입검사 ####
 #### 형변환 ####
 #### 조건문 ####
+<script src="https://gist.github.com/pausacoffee/8e72a9fb206b2f7d5bb2e6745b4798d9.js"></script>
 #### 반복문 ####
+<script src="https://gist.github.com/pausacoffee/c6a18ca39ab9a343a96c0c6003fa264a.js"></script>
   
 ## Function ##
 #### 문자열 내 변수 ####
@@ -45,6 +47,7 @@ int, double, String, bool 을 기본적으로 제공한다.
 
 ## Class ##
 #### property ####
+#### 널인지 연산자 ####
 #### 생성자 ####
 #### 접근지정자 ####
 #### getter, setter ####
