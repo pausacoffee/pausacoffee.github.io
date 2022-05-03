@@ -72,7 +72,7 @@ int, double, String, bool 을 기본적으로 제공한다.
 #### 생성자 with getter, setter ####
 <script src="https://gist.github.com/pausacoffee/35293245ca222ebb167e7d5f1c8517f8.js"></script>
 
-#### 상속과 추상클래스####
+#### 상속과 추상클래스 ####
 #### 널인지 연산자 ####
 #### 믹스인 ####
 #### enum ####
