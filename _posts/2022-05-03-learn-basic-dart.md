@@ -6,7 +6,7 @@ categories: Flutter
 tags: [Flutter, Dart, Mac, VSCode]
 ---
 
-### 개발환경 ###
+## 개발환경 ##
 > MacBook pro(M1, 2020)  
 > Monterey v.12.3.1  
 > Visual Studio Code 버전: 1.66.2  
