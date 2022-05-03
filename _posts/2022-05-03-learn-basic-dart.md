@@ -16,9 +16,7 @@ tags: [Flutter, Dart, Mac, VSCode]
   
 ## 기본문법 ##
 #### 주석 ####
-'''dart
-void main() => MyApp() //주석은 이렇게 사용한다! 
-'''
+<script src="https://gist.github.com/pausacoffee/6cad4851b7174da4f06fb9ed69b80ae3.js"></script>
 
 #### 문장 ####
 #### 변수 ####
