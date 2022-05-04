@@ -5,8 +5,8 @@ subtitle: Let's study basic dart lan for flutter!
 categories: Flutter
 tags: [Flutter, Dart, Mac, VSCode]
 ---
-## OverView ##
-flutter는 크로스플랫폼 **프레임워크**이다. 고로 flutter를 사용하기에 앞서 dart에 대해 공부하고자 한다.  
+## Overview ##
+flutter는 dart기반의 크로스플랫폼 **프레임워크**이다. 고로 flutter를 사용하기에 앞서 dart에 대해 공부하고자 한다.  
 이 정도 길이면 포스트를 나누는데... 솔직히 귀찮다...  
 dart에 관련된 지식은 여기에 우겨넣거나 나중에 정리하도록 하자!  
 (본 포스팅에서 소개하는 글보다 자세한 설명이 필요하다면 아래의 사이트를 이용하자! dart 공문서 사이트이다.)
@@ -36,10 +36,24 @@ int, double, String, bool 을 기본적으로 제공한다.
 >**final과 const차이**  
 >final은 컴파일 이후 한번만 값을 할당 가능.
 >const는 컴파일 이후 항상 같은 값을 가짐.
+>static은 클래스에서만 사용되며, 스코프를 글로벌로 넓혀준다. 클래스로 직접 접근해 호출이 가능하다.
 
 <script src="https://gist.github.com/pausacoffee/8792186514b2cc332c165745e1722f4c.js"></script> 
+#### enum ####
+상수를 정의하는 특수한 형태의 클래스. 상수처럼 사용이 가능하다.
+<script src="https://gist.github.com/pausacoffee/3d24cb2df949707d48c106a0a46aa0ea.js"></script>
 #### 연산자 ####
 <script src="https://gist.github.com/pausacoffee/994680d065decee91216dd2c00eca45d.js"></script>
+#### 널인지 연산자 ####
+어떤 객체든 null이 될수 있는 문제가 발생한다. (예를 들어 비동기 호출함수의 리턴이 null인 케이스)  
+이때 if(response == null) return 과 같은 예외처리 코드를 추가해야 한다.  
+dart에서는 이를 널인지 연산자를 통해 해결한다.
+
+>**?. ?? ?? 의 차이**  
+>?. null이 아니면 값을 할당하고, null이면 오류 발생없이 null을 할당하시오!  
+>?? 정보가 있는지 알수 없는 상황에서 '값이 존재하지 않는 상황'에 할당할 백업값을 저장할수 있다.  
+>??= 이전 연산자(??)과 비슷하지만 반대의 작업을 수행한다. 객체가 null이면 백업값을 할당하고 아니면 객체를 그대로 반환한다.  
+>* [이 곳](http://blog.sethladd.com/2015/07/null-aware-operators-in-dart.html)에서 더 자세히 알아보자  
 #### 형변환 ####
 <script src="https://gist.github.com/pausacoffee/bb5684ec616477be3caa846b298f767c.js"></script>
 #### 조건문 ####
@@ -87,21 +101,22 @@ ex) 동물 클래스의 까마귀 물고기 호랑이 클래스가 있다고 하
 > factory : 미리 정해진 프로퍼티를 포함하는 클래스의 특별한 메서드이다.  
 
 <script src="https://gist.github.com/pausacoffee/7e04ec0c7bb400ff1e978557ff8f416e.js"></script>. 
-#### 널인지 연산자 ####
-어떤 객체든 null이 될수 있는 문제가 발생한다. (예를 들어 비동기 호출함수의 리턴이 null인 케이스)  
-이때 if(response == null) return 과 같은 예외처리 코드를 추가해야 한다.  
-dart에서는 이를 널인지 연산자를 통해 해결한다.
 
->**?. ?? ?? 의 차이**  
->?. null이 아니면 값을 할당하고, null이면 오류 발생없이 null을 할당하시오!  
->?? 정보가 있는지 알수 없는 상황에서 '값이 존재하지 않는 상황'에 할당할 백업값을 저장할수 있다.  
->??= 이전 연산자(??)과 비슷하지만 반대의 작업을 수행한다. 객체가 null이면 백업값을 할당하고 아니면 객체를 그대로 반환한다.  
->* [이 곳](http://blog.sethladd.com/2015/07/null-aware-operators-in-dart.html)에서 더 자세히 알아보자  
-
-#### enum ####
-상수를 정의하는 특수한 형태의 클래스. 상수처럼 사용이 가능하다.
-<script src="https://gist.github.com/pausacoffee/3d24cb2df949707d48c106a0a46aa0ea.js"></script>
   
 ## Collection ##
 #### List, Spread, Map, Set ####
 <script src="https://gist.github.com/pausacoffee/eede03526cf9adb752966297fabf0138.js"></script>
+#### 기타 ####
+<script src="https://gist.github.com/pausacoffee/c7a70f39d5b5ed9a210091aba17577e2.js"></script>. 
+## 함수형 프로그래밍 ##
+Dart는 객체지향 프로그래밍과 함수형 프로그래밍의 특징을 모두 제공한다.  
+함수를 값으로 취급하여 다른 변수에 함수를 대입할 수 있다.
+다른 함수의 인수로 함수 자체를 전달하거나 함수를 반환받을 수도 있다.
+
+> 함수를 매개변수로 전달, 수정, 변수에 대입하기가 가능한 객체를 '일급 객체', first-class object라고 함.
+
+루프에서 살펴본 forEach가 함수형 프로그래밍이다.  
+이터레이션 프로토콜을 지원하는 자료구조하면 모두 forEach를 사용할 수 있다.  
+
+forEach외의 고차함수를 살펴보자.
+<script src="https://gist.github.com/pausacoffee/a60902d8c1233a08eb41a230430ebb52.js"></script>
