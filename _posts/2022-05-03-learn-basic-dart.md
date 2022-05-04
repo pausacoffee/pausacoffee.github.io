@@ -30,8 +30,13 @@ dart에 관련된 지식은 여기에 우겨넣거나 나중에 정리하도록 
 <script src="https://gist.github.com/pausacoffee/6e8971504048ae2fb7225931911b508a.js"></script> 
 #### 주석 ####
 <script src="https://gist.github.com/pausacoffee/34ad2f0100c9105d3d7e88104b79dc83.js"></script>
-#### 변수, var, 상수 ####
+#### 변수, 상수 ####
 int, double, String, bool 을 기본적으로 제공한다.  
+
+>**final과 const차이**  
+>final은 컴파일 이후 한번만 값을 할당 가능.
+>const는 컴파일 이후 항상 같은 값을 가짐.
+
 <script src="https://gist.github.com/pausacoffee/8792186514b2cc332c165745e1722f4c.js"></script> 
 #### 연산자 ####
 <script src="https://gist.github.com/pausacoffee/994680d065decee91216dd2c00eca45d.js"></script>
@@ -69,17 +74,34 @@ int, double, String, bool 을 기본적으로 제공한다.
 > 다른 객체지향 언어에서는 new라는 키워드로 클래스의 인스턴스를 만든다. 다트에서도 new 키워드를 사용할 수 있지만, 선택사항이다.  
 > 컴파일러가 자동으로 알맞은 키워드를 추론하기 때문이다. 다만, dart에서는 new사용을 권장하지 않는다.
 
-#### 생성자 with getter, setter ####
+#### 생성자, getter, setter ####
 <script src="https://gist.github.com/pausacoffee/35293245ca222ebb167e7d5f1c8517f8.js"></script>
 
-#### 상속과 추상클래스 ####
+#### 상속, 추상클래스, 믹스인, 팩토리 ####
+
+> **extends, implements, mixins 의 차이**. 
+> extends : 클래스의 멤버변수, 함수, 생성자 등을 구현없이 사용할때 사용  
+> implements : 클래스의 멤버변수, 함수, 생성자 등의 구현이 필수적  
+> mixins : 다양한 계층의 클래스에서 클래스의 코드를 재사용  
+ex) 동물 클래스의 까마귀 물고기 호랑이 클래스가 있다고 하면 각각 날고 걷고 수영하는 행동(메소드)를 가지는데 이러한 동일한 메소드들을 재사용 하기 위해 사용한다.
+> factory : 미리 정해진 프로퍼티를 포함하는 클래스의 특별한 메서드이다.  
+
+<script src="https://gist.github.com/pausacoffee/7e04ec0c7bb400ff1e978557ff8f416e.js"></script>. 
 #### 널인지 연산자 ####
-#### 믹스인 ####
+어떤 객체든 null이 될수 있는 문제가 발생한다. (예를 들어 비동기 호출함수의 리턴이 null인 케이스)  
+이때 if(response == null) return 과 같은 예외처리 코드를 추가해야 한다.  
+dart에서는 이를 널인지 연산자를 통해 해결한다.
+
+>**?. ?? ?? 의 차이**  
+>?. null이 아니면 값을 할당하고, null이면 오류 발생없이 null을 할당하시오!  
+>?? 정보가 있는지 알수 없는 상황에서 '값이 존재하지 않는 상황'에 할당할 백업값을 저장할수 있다.  
+>??= 이전 연산자(??)과 비슷하지만 반대의 작업을 수행한다. 객체가 null이면 백업값을 할당하고 아니면 객체를 그대로 반환한다.  
+>* [이 곳](http://blog.sethladd.com/2015/07/null-aware-operators-in-dart.html)에서 더 자세히 알아보자  
+
 #### enum ####
-#### method ####
+상수를 정의하는 특수한 형태의 클래스. 상수처럼 사용이 가능하다.
+<script src="https://gist.github.com/pausacoffee/3d24cb2df949707d48c106a0a46aa0ea.js"></script>
   
 ## Collection ##
-#### List ####
-#### Spread ####
-#### Map ####
-#### Set ####
+#### List, Spread, Map, Set ####
+<script src="https://gist.github.com/pausacoffee/eede03526cf9adb752966297fabf0138.js"></script>
